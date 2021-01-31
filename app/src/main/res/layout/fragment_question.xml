@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/question"
         android:textColor="@color/black"
@@ -26,16 +26,17 @@
         android:id="@+id/imageView"
         android:layout_width="260dp"
         android:layout_height="400dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/question_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <ImageView
+        android:id="@+id/btnToSelect"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

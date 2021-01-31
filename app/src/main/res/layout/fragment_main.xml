@@ -26,7 +26,7 @@
         android:id="@+id/imageView"
         android:layout_width="260dp"
         android:layout_height="400dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="0dp"
         android:src="@drawable/main_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,8 @@
         android:src="@drawable/next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:id="@+id/btnToQuest"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

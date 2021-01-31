@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.a2021_01_kt_example"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -44,7 +44,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     //  ---------------- add dependencies for navigation bar ---------------------
-    def nav_version = "2.3.3"
+    def nav_version = "2.3.0-alpha04"
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
