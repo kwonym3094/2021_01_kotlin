@@ -1,5 +1,4 @@
-# 2021_01_kotlin
-kotlin 기본 연습 - love type test app
+# kotlin 기본 연습 - love type test app
 ============================
 
 새로 배운 것
