@@ -79,7 +79,7 @@ fun array(){
 
     array[0] = 3 // 가능
 //    list[0] = 1 // 불가능
-    // immutable list는 interface라 가져오는것만 가능
+    // immutable list는 interface 라 가져오는것만 가능
     var result = list.get(0)
 
     var arrList = arrayListOf<Int>(1,2)
